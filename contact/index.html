@@ -30,11 +30,38 @@
       <li>Weeeeeeechat: Add me in person.</li>
       <li>GitHub: <a href="https://www.github.com/fanfannnmn">fanfannnmn</a></li>
     </ul>
+    <h3>Leave me a message: </h3>
+      <form name="form" id="form" method="post" action="./post.php" onsubmit="emailAlert()" autocomplete="off">
+        <ul>
+          <li>
+            <label for="name">Your Full Name</label>
+          </li>
+          <li>
+            <input type="text" class="ip-name" name="name" id="name" />
+          </li>
+          <li>
+            <label for="name">Your Email</label>
+          </li>
+          <li>
+            <input type="email" class="ip-email" name="email" id="email"/>
+          </li>
+          <li>
+            <label for="name">Message</label>
+          </li>
+          <li>
+            <textarea class="ip-message" maxlength="500" name="message"></textarea>
+          </li>
+          <li>
+            <input type="submit" class="kbut" value="Submit" />
+          </li>
+        </ul>
+      </form>
       <p>
         You are very very very welcome to open a issue on my GitHub page to help
         me improve my code.
       </p>
 </main>
+  <script src="../js/site.js"></script>
 </body>
 
 </html>

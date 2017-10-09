@@ -154,6 +154,21 @@ audio {
   padding-bottom: 0;
 }
 
+#form ul li,
+#form label {
+  list-style-type: none;
+  font-size: 0.888em;
+  padding-bottom: 0.122em;
+}
+ul li .ip-name, .ip-email {
+  width: 15em;
+  height: 1.5em;
+}
+ul li .ip-message {
+  width: 25em;
+  height: 10em;
+  word-break: normal;
+}
 
 /* State Styles */
 /*
@@ -189,25 +204,5 @@ audio {
   body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-  }
-  #primary {
-    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
-    float: left;
-  }
-  #supporting {
-    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
-    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
-    float: left;
-  }
-  #footer {
-    clear: both;
-  }
-  .flexbox #primary,
-  .flexbox #supporting {
-    float: none;
-    margin-left: 0;
-  }
-  .flexbox #content {
-    display: flex;
   }
 }
