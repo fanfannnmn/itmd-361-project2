@@ -33,31 +33,39 @@ body {
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
 a {
   text-decoration: none;
   color: #1dadcc;
 }
 
 h1 {
-  font-size: 2.369em;
-  line-height: 1.032em;
-  padding-bottom: 0.516em;
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.032em; /* 44 / 42.635 = 1.032 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 h1 a {
   text-decoration: none;
   color: black;
 }
 h2 {
-  font-size: 1.777em;
-  line-height: 1.032em;
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
   font-family: courier;
-  padding-bottom: 0.688em;
 }
 h3 {
-  font-size: 1.333em;
   font-family: "Times New Roman";
   font-weight: lighter;
-  padding-bottom: 0.611em;
 }
 
 ol, ul {
@@ -132,7 +140,7 @@ audio {
   color: black;
   width: 100%;
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
-  padding-bottom: 0.611em;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   text-align: center;
 }
 #navigation a:hover {
@@ -157,16 +165,15 @@ audio {
 #form ul li,
 #form label {
   list-style-type: none;
-  font-size: 0.888em;
-  padding-bottom: 0.122em;
+  padding-bottom: 0.277em;
 }
 ul li .ip-name, .ip-email {
   width: 15em;
-  height: 1.5em;
+  height: 1.111em;
 }
 ul li .ip-message {
   width: 25em;
-  height: 10em;
+  height: 11.111em;
   word-break: normal;
 }
 
@@ -185,11 +192,27 @@ ul li .ip-message {
     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
   }
+  img,
+  video,
+  audio {
+    display: block;
+    width: 75%;
+    position: absolute;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 640px) {
   html {
     font-size: 1.25em; /* 20 / 16 = 1.25em */
+  }
+  img,
+  video,
+  audio {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
   }
 }
 
@@ -204,5 +227,13 @@ ul li .ip-message {
   body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+  }
+  img,
+  video,
+  audio {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
   }
 }
