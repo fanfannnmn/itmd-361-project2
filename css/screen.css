@@ -191,6 +191,7 @@ ul li .ip-message {
   body {
     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
+    font-size: 80%;
   }
   img,
   video,
@@ -199,6 +200,11 @@ ul li .ip-message {
     width: 75%;
     position: absolute;
     text-align: center;
+  }
+  ul li .ip-message {
+    width: 20em;
+    height: 8.888em;
+    word-break: normal;
   }
 }
 
@@ -232,7 +238,7 @@ ul li .ip-message {
   video,
   audio {
     display: block;
-    max-width: 100%;
+    max-width: 45%;
     position: absolute;
     text-align: center;
   }
