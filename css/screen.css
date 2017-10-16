@@ -21,14 +21,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  font-size: 1.111em; /* 20 / 18 = 1.1111111111 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
   font-family: sans-serif, Helvetica, Arial;
   background-color: #e8fefb;
   text-decoration: none;
 }
 body {
-  padding-top: 3.667em; /* 66 / 18 = 3.667... */
+  padding-top: 3.667em; /* 66 / 18 = 3.6666666667 */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -41,6 +41,7 @@ h5,
 h6,
 p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+  font-weight: 500;
 }
 
 a {
@@ -64,6 +65,7 @@ h2 {
   font-family: courier;
 }
 h3 {
+  font-size: 1.333em; /* 23.988 / 18 = 1.777 */
   font-family: "Times New Roman";
   font-weight: lighter;
 }
@@ -79,7 +81,6 @@ ul {
 }
 li ol,
 li ul {
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: 0;
 }
@@ -96,18 +97,12 @@ li li:last-child {
   padding-bottom: 0;
 }
 
-p {
-  padding-bottom: 1.222em;
-}
-
 /* Responsive Media */
 img,
 video,
 audio {
   display: block;
   max-width: 100%;
-  position: absolute;
-  text-align: center;
 }
 
 /* Layout Styles */
@@ -165,15 +160,15 @@ audio {
 #form ul li,
 #form label {
   list-style-type: none;
-  padding-bottom: 0.277em;
+  padding-bottom: 0.167em; /* 3 / 18 = 0.1666666667 */
 }
 ul li .ip-name, .ip-email {
   width: 15em;
-  height: 1.111em;
+  height: 1.111em; /* 20 / 18 = 1.1111111111 */
 }
 ul li .ip-message {
   width: 25em;
-  height: 11.111em;
+  height: 11.111em; /* 200 / 18 = 11.1111111111 */
   word-break: normal;
 }
 
@@ -198,27 +193,23 @@ ul li .ip-message {
   audio {
     display: block;
     width: 75%;
-    position: absolute;
-    text-align: center;
   }
   ul li .ip-message {
     width: 20em;
-    height: 8.888em;
+    height: 8.889em;  /* 160 / 18 = 8.8888888889 */
     word-break: normal;
   }
 }
 
 @media screen and (min-width: 640px) {
   html {
-    font-size: 1.25em; /* 20 / 16 = 1.25em */
+    font-size: 1.1111111111em; /* 20 / 18 = 1.1111111111 */
   }
   img,
   video,
   audio {
     display: block;
     max-width: 100%;
-    position: absolute;
-    text-align: center;
   }
 }
 
@@ -239,7 +230,5 @@ ul li .ip-message {
   audio {
     display: block;
     max-width: 45%;
-    position: absolute;
-    text-align: center;
   }
 }
