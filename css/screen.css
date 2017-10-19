@@ -21,26 +21,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-size: 1.111em; /* 20 / 18 = 1.1111111111 */
-  line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
+  font-size: 1.125em; /* 18px / 16(default) = 1.125 */
+  line-height: 1.111em; /* 20px / 18 = 1.1111111111 */
   font-family: sans-serif, Helvetica, Arial;
   background-color: #e8fefb;
   text-decoration: none;
 }
 body {
-  padding-top: 3.667em; /* 66 / 18 = 3.6666666667 */
-  padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
-  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-top: 3.3em; /* 66 / 20 = 3.3 */
+  padding-right: 1.1em; /* 22 / 20 = 1.1 */
+  padding-left: 1.1em; /* 22 / 20 = 1.1 */
 }
 
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
-  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-bottom: 0.8em;
   font-weight: 500;
 }
 
@@ -50,28 +47,29 @@ a {
 }
 
 h1 {
-  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
-  line-height: 1.032em; /* 44 / 42.635 = 1.032 */
-  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
+  font-size: 3.998em; /* 50.889 / 20 = 2.54445 */
+  line-height: 0.589em; /* 25 / 50.889 = 0.5895183635 */
+  padding-bottom: 0.589em; /* 30 / 50 = 0.5895183635 */
 }
 h1 a {
   text-decoration: none;
   color: black;
 }
 h2 {
-  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
-  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
-  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+  font-size: 2.827em; /* 35.989 / 20 = 1.79945 */
+  line-height: 0.834em; /* 30 / 35.989 = 0.8335880408 */
+  padding-bottom: 0.278em; /* 10 / 35.989 = 0.2778626803 */
   font-family: courier;
 }
 h3 {
-  font-size: 1.333em; /* 23.988 / 18 = 1.777 */
+  font-size: 1.999em; /* 25.452 / 20 = 1.2726 */
+  line-height: 1.177em; /* 30 / 25.452 = 1.1786892975 */
   font-family: "Times New Roman";
   font-weight: lighter;
 }
 
 ol, ul {
-  bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  bottom: 0.55em; /* 11 / 20 = 0.55 */
 }
 ol {
   list-style-type: decimal;
@@ -81,7 +79,7 @@ ul {
 }
 li ol,
 li ul {
-  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-left: 1.1em; /* 22 / 20 = 1.1 */
   padding-bottom: 0;
 }
 li ol {
@@ -91,7 +89,7 @@ li li ol {
   list-style-type: lower-roman;
 }
 li {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0.75em; /* 11 / 20 = 0.75 */
 }
 li li:last-child {
   padding-bottom: 0;
@@ -134,8 +132,8 @@ audio {
   display: block;
   color: black;
   width: 100%;
-  padding-top: 0.611em; /* 11 / 18 = 0.611 */
-  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+  padding-top: 0.55em; /* 11 / 20 = 0.55 */
+  padding-bottom: 0.55em; /* 11 / 20 = 0.55 */
   text-align: center;
 }
 #navigation a:hover {
@@ -160,15 +158,15 @@ audio {
 #form ul li,
 #form label {
   list-style-type: none;
-  padding-bottom: 0.167em; /* 3 / 18 = 0.1666666667 */
+  padding-bottom: 0.15em; /* 3 / 20 = 0.15 */
 }
 ul li .ip-name, .ip-email {
   width: 15em;
-  height: 1.111em; /* 20 / 18 = 1.1111111111 */
+  height: 1.1em; /* 22 / 20 = 1.1 */
 }
 ul li .ip-message {
   width: 25em;
-  height: 11.111em; /* 200 / 18 = 11.1111111111 */
+  height: 10em; /* 200 / 20 = 10 */
   word-break: normal;
 }
 
@@ -203,7 +201,7 @@ ul li .ip-message {
 
 @media screen and (min-width: 640px) {
   html {
-    font-size: 1.1111111111em; /* 20 / 18 = 1.1111111111 */
+    font-size: 1em;
   }
   img,
   video,
