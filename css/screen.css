@@ -21,24 +21,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-size: 1.125em; /* 18px / 16(default) = 1.125 */
-  line-height: 1.111em; /* 20px / 18 = 1.1111111111 */
+  font-size: 18px;
+  line-height: 20px;
   font-family: sans-serif, Helvetica, Arial;
   background-color: #e8fefb;
   text-decoration: none;
 }
 body {
-  padding-top: 3.3em; /* 66 / 20 = 3.3 */
-  padding-right: 1.1em; /* 22 / 20 = 1.1 */
-  padding-left: 1.1em; /* 22 / 20 = 1.1 */
+  padding-top: 60px;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 
 h1,
 h2,
 h3,
 p {
-  padding-bottom: 0.8em;
+  padding-bottom: 20px;
   font-weight: 500;
+}
+
+
+p {
+  line-height: 20px;
 }
 
 a {
@@ -47,29 +52,30 @@ a {
 }
 
 h1 {
-  font-size: 3.998em; /* 50.889 / 20 = 2.54445 */
-  line-height: 0.589em; /* 25 / 50.889 = 0.5895183635 */
-  padding-bottom: 0.589em; /* 30 / 50 = 0.5895183635 */
+  font-size: 50px;
+  line-height: 24px;
+  padding-bottom: 40px;
 }
 h1 a {
   text-decoration: none;
   color: black;
 }
 h2 {
-  font-size: 2.827em; /* 35.989 / 20 = 1.79945 */
-  line-height: 0.834em; /* 30 / 35.989 = 0.8335880408 */
-  padding-bottom: 0.278em; /* 10 / 35.989 = 0.2778626803 */
+  font-size: 35px;
+  line-height: 20px;
+  padding-bottom: 20px;
   font-family: courier;
 }
 h3 {
-  font-size: 1.999em; /* 25.452 / 20 = 1.2726 */
-  line-height: 1.177em; /* 30 / 25.452 = 1.1786892975 */
+  font-size: 25px;
+  line-height: 20px;
   font-family: "Times New Roman";
   font-weight: lighter;
+  padding-bottom: 20px;
 }
 
 ol, ul {
-  bottom: 0.55em; /* 11 / 20 = 0.55 */
+  bottom: 10px;
 }
 ol {
   list-style-type: decimal;
@@ -79,7 +85,7 @@ ul {
 }
 li ol,
 li ul {
-  padding-left: 1.1em; /* 22 / 20 = 1.1 */
+  padding-left: 22px;
   padding-bottom: 0;
 }
 li ol {
@@ -89,7 +95,7 @@ li li ol {
   list-style-type: lower-roman;
 }
 li {
-  padding-bottom: 0.75em; /* 11 / 20 = 0.75 */
+  padding-bottom: 20px;
 }
 li li:last-child {
   padding-bottom: 0;
@@ -132,8 +138,8 @@ audio {
   display: block;
   color: black;
   width: 100%;
-  padding-top: 0.55em; /* 11 / 20 = 0.55 */
-  padding-bottom: 0.55em; /* 11 / 20 = 0.55 */
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: center;
 }
 #navigation a:hover {
@@ -158,15 +164,15 @@ audio {
 #form ul li,
 #form label {
   list-style-type: none;
-  padding-bottom: 0.15em; /* 3 / 20 = 0.15 */
+  padding-bottom: 3px;
 }
 ul li .ip-name, .ip-email {
   width: 15em;
-  height: 1.1em; /* 22 / 20 = 1.1 */
+  height: 22px;
 }
 ul li .ip-message {
   width: 25em;
-  height: 10em; /* 200 / 20 = 10 */
+  height: 200px;
   word-break: normal;
 }
 
@@ -193,15 +199,12 @@ ul li .ip-message {
   }
   ul li .ip-message {
     width: 20em;
-    height: 8.889em;  /* 160 / 18 = 8.8888888889 */
+    height: 160px;  /* 160 / 18 = 8.8888888889 */
     word-break: normal;
   }
 }
 
 @media screen and (min-width: 640px) {
-  html {
-    font-size: 1em;
-  }
   img,
   video,
   audio {
