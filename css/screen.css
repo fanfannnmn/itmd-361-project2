@@ -167,6 +167,7 @@ audio {
   video,
   audio {
     display: block;
+    margin: 0 auto;
     width: 75%;
   }
 }
@@ -177,6 +178,7 @@ audio {
   video,
   audio {
     display: block;
+    margin: 0 auto;
     max-width: 100%;
   }
 }
@@ -197,6 +199,7 @@ audio {
   video,
   audio {
     display: block;
-    max-width: 45%;
+    margin: 0 auto;
+    max-width: 85%;
   }
 }
