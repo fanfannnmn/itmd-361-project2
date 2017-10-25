@@ -28,7 +28,7 @@ html {
   text-decoration: none;
 }
 body {
-  padding-top: 22px;
+  padding-top: 11px;
   padding-right: 22px;
   padding-left: 22px;
 }
@@ -40,7 +40,7 @@ a {
 
 h1 {
   font-size: 42.635px;
-  padding-top: 44px;
+  padding-top: 55px;
   line-height: 47.964375px;
   padding-bottom: 22px;
 }
@@ -84,10 +84,12 @@ li li ol {
   list-style-type: lower-roman;
 }
 li {
+  line-height: 22px;
   padding-bottom: 22px;
 }
-li li:last-child {
-  padding-bottom: 0;
+ul li {
+  line-height: 22px;
+  padding-bottom: 22px;
 }
 
 /* Responsive Media */
@@ -148,21 +150,6 @@ audio {
 #navigation li {
   list-style-type: none;
   padding-bottom: 0;
-}
-
-#form ul li,
-#form label {
-  list-style-type: none;
-  line-height: 18px;
-}
-ul li .ip-name, .ip-email {
-  width: 15em;
-  line-height: 22px;
-}
-ul li .ip-message {
-  width: 25em;
-  height: 222px;
-  word-break: normal;
 }
 
 /* State Styles */
