@@ -21,16 +21,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   font-family: sans-serif, Helvetica, Arial;
   background-color: #e8fefb;
   text-decoration: none;
 }
 body {
-  padding-top: 11px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-top: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
+  padding-right: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  padding-left: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 
 a {
@@ -38,32 +38,36 @@ a {
   color: #1dadcc;
 }
 
+h1, h2, h3, p {
+ padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
 h1 {
-  font-size: 42.635px;
-  padding-top: 44px;
-  line-height: 44px;
-  padding-bottom: 11px;
+  font-size: 2.3686111111em; /* 42.635 / 18 = 2.3686111111 */
+  padding-top: 1.548023924em; /* 66 / 42.635 = 1.548023924 */
+  line-height: 0.5160079747em; /* 22 / 42.635 = 0.5160079747 */
+  padding-bottom: 0.774011962em; /* 33 / 42.635 = 0.774011962 */
 }
 h1 a {
   text-decoration: none;
   color: black;
 }
 h2 {
-  font-size: 31.984px;
-  line-height: 33px;
-  padding-bottom: 22px;
+  font-size: 1.7768888889em; /* 31.984 / 18 = 1.7768888889 */
+  line-height: 0.687843922em; /* 22 / 31.984 = 0.687843922 */
+  padding-bottom: 0.687843922em; /* 22 / 31.984 = 0.687843922 */
   font-family: courier;
 }
 h3 {
-  font-size: 23.994px;
-  line-height: 22px;
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  line-height: 0.9168958906em; /* 22 / 23.994 = 0.9168958906 */
   font-family: "Times New Roman";
   font-weight: lighter;
-  padding-bottom: 11px;
+  padding-bottom: 0.4584479453em; /* 11 / 23.994 = 0.4584479453 */
 }
 
 p {
-  padding-bottom: 22px;
+  padding-bottom: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
 }
 
 ol {
@@ -74,7 +78,7 @@ ul {
 }
 li ol,
 li ul {
-  padding-left: 22px;
+  padding-left: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: 0;
 }
 li ol {
@@ -84,8 +88,7 @@ li li ol {
   list-style-type: lower-roman;
 }
 li {
-  line-height: 22px;
-  padding-bottom: 22px;
+  padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 
 /* Responsive Media */
@@ -125,8 +128,8 @@ audio {
   display: block;
   color: black;
   width: 100%;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
+  padding-bottom: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
   text-align: center;
 }
 #navigation a:hover {
