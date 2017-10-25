@@ -32,14 +32,6 @@ body {
   padding-right: 22px;
   padding-left: 22px;
 }
-/*
-h1,
-h2,
-h3,
-p {
-  padding-bottom: 22px;
-  font-weight: 500;
-}*/
 
 a {
   text-decoration: none;
@@ -49,8 +41,8 @@ a {
 h1 {
   font-size: 42.635px;
   padding-top: 44px;
-  line-height: 51.162px;
-  padding-bottom: 44px;
+  line-height: 47.964375px;
+  padding-bottom: 22px;
 }
 h1 a {
   text-decoration: none;
@@ -58,21 +50,22 @@ h1 a {
 }
 h2 {
   font-size: 31.984px;
-  line-height: 28.7928px;
+  line-height: 35.982px;
   padding-bottom: 22px;
   font-family: courier;
 }
 h3 {
   font-size: 23.994px;
-  line-height: 28.7928px;
+  line-height: 26.99325px;
   font-family: "Times New Roman";
   font-weight: lighter;
   padding-bottom: 22px;
 }
 
-ol, ul {
+p {
   padding-bottom: 22px;
 }
+
 ol {
   list-style-type: decimal;
 }
@@ -164,11 +157,11 @@ audio {
 }
 ul li .ip-name, .ip-email {
   width: 15em;
-  height: 18px;
+  line-height: 22px;
 }
 ul li .ip-message {
   width: 25em;
-  height: 200px;
+  height: 222px;
   word-break: normal;
 }
 
