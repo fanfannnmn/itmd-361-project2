@@ -171,7 +171,7 @@ audio {
   audio {
     display: block;
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
   }
 }
 
@@ -203,6 +203,6 @@ audio {
   audio {
     display: block;
     margin: 0 auto;
-    max-width: 85%;
+    max-width: 50%;
   }
 }
