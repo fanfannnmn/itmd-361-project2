@@ -39,7 +39,7 @@ a {
 }
 
 h1, h2, h3, p {
- padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
 h1 {
@@ -93,6 +93,7 @@ li {
 
 label {
   display: block;
+  top: -0.6111111111em; /* 11 /18 = 0.6111111111 */
 }
 
 input {
@@ -177,10 +178,6 @@ audio {
 #input-email,
 #input-message {
   position: relative;
-}
-
-label {
-  top: -0.6111111111em; /* 11 /18 = 0.6111111111 */
 }
 
 /* Modular Styles */
