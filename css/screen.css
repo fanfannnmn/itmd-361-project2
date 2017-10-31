@@ -173,23 +173,13 @@ audio {
    License: none (public domain)
 */
 
-.hasjs #input-name,
-.hasjs #input-email,
-.hasjs #input-message {
+#input-name,
+#input-email,
+#input-message {
   position: relative;
 }
 
-.hasjs #input-name label,
-.hasjs #input-email label,
-.hasjs #input-message label {
-  transition: top 1s;
-  top: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
-  position: absolute;
-}
-
-.hasjs #input-name label.active,
-.hasjs #input-email label.active,
-.hasjs #input-message label.active {
+label {
   top: -0.6111111111em; /* 11 /18 = 0.6111111111 */
 }
 
