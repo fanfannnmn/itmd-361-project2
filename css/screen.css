@@ -212,10 +212,10 @@ audio {
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   body {
-    padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
-    padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
+    padding-right: 13.75%; /* 44 / 375 = 0.1375% */
+    padding-left: 13.75%; /* 44 / 375 = 0.1375% */
   }
   img,
   video,
@@ -224,8 +224,10 @@ audio {
     margin: 0 auto;
     width: 100%;
   }
+  input, #input-submit {
+    width: 100%;
+  }
 }
-
 
 @media screen and (min-width: 640px) {
   img,
@@ -255,5 +257,8 @@ audio {
     display: block;
     margin: 0 auto;
     max-width: 50%;
+  }
+  input, #input-submit {
+    width: 50%;
   }
 }
