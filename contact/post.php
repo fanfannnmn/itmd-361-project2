@@ -10,3 +10,4 @@ fwrite($file, $content);
 header("Location: ./");
 exit;
 fclose($file);
+?>

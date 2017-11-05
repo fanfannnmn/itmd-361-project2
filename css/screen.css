@@ -114,10 +114,6 @@ input[type="email"] {
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 
-textarea {
-  overflow: auto;
-}
-
 form li {
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   list-style-type: none;
